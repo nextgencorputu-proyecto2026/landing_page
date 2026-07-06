@@ -1,0 +1,194 @@
+* { 
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar-brand img {
+    width: 200px;
+    height: auto;
+}
+
+.Logo {
+    width: 120px;
+    height: auto;
+}
+
+#main {
+    flex: 1;
+}
+
+h2 {
+    color: green;
+}
+
+.content {
+    background-color: white;
+}
+
+
+.card {
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    background-color: rgb(231, 236, 223);
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+    transform: translateY(-8px);
+
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+#cards{
+    padding: 50px;
+}
+
+footer {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    color: lightgreen;
+}
+
+.hero {
+    background-image: url("Hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, .55);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.hero p {
+    color: white;
+    font-size: 21px;
+    max-width: 700px;
+    margin: 20px auto 35px;
+}
+
+#lideres .card {
+    width: 300px;
+    gap: 10px;
+    margin: 0 auto;
+    border-radius: 100px;
+
+}
+
+#lideres .card img {
+    border-radius: 20px 20px 0 0;
+}
+.listaobjetivos {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
+
+.listaobjetivos li {
+    margin-bottom: 10px;
+}
+#barrios{
+    list-style-position:inside;
+    text-align: center;
+    padding-left: 0;    
+
+}
+#form {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(231, 236, 223);
+    border-radius: 15px;
+    
+}
+
+#form .form-label {
+    color: green;
+}
+
+#form .form-control,
+#form .form-select,
+#form textarea {
+    margin-bottom: 20px;
+    border: 2px solid gray;
+}
+
+.btn-enviar {
+    margin-top: 20px;
+}
+#Tarjeta-info{
+    display: flex;
+    gap: 15px;
+    
+}
+.tarjetas{
+    background-color: rgb(231, 236, 223);
+    border-radius: 15px;
+    flex: 1;
+    padding: 20px;
+}
+.tarjetas-info{
+    display: flex;
+    gap: 15px;
+}
+.tarjetas-barrios{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 0px;
+    
+}
+h2{
+    padding: 45px;
+}
