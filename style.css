@@ -31,9 +31,9 @@ nav {
     height: auto;
 }
 
-.Logo {
-    width: 120px;
-    height: auto;
+#Logo {
+    width: 85px;
+    height: 70px;
 }
 
 #main {
@@ -176,13 +176,8 @@ footer {
 .tarjetas{
     background-color: rgb(231, 236, 223);
     border-radius: 15px;
-    flex: 1;
-    padding: 20px;
 }
-.tarjetas-info{
-    display: flex;
-    gap: 15px;
-}
+
 .tarjetas-barrios{
     display: flex;
     gap: 15px;
